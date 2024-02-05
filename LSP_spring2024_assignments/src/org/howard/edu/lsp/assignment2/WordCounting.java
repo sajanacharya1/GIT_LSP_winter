@@ -20,7 +20,7 @@ public class WordCounting {
 //		File myfile = new File(WordCounting.class.getResource("words.txt").getFile());
 //		File myfile = new File(WordCounting.class.getResourceAsStream("words.txt"));
 
-		File myfile =  new File("src/words.txt");
+		File myfile =  new File("LSP_spring2024_assignments/src/words.txt");
 		Scanner myReader = new Scanner(myfile);
 		while (myReader.hasNextLine()) {
 			String data = myReader.nextLine();
